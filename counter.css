@@ -1,0 +1,43 @@
+body
+{
+    text-align: center;
+    background-color: hsl(0, 0%, 0%);
+    height: 100vh;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+button
+{
+    background-color: hsl(0, 4%, 22%);
+    color: white;
+    height: 5rem;
+    width: 10rem;
+    border: none;
+    font-size: 1rem;
+    font-family: monospace;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+#counter
+{
+    color: white;
+    font-size: 10rem;
+    font-family: monospace;
+    font-weight: bold;
+    display: block;
+    
+}
+
+button:hover
+{
+    background-color: hsl(0, 4%, 50%);
+    transition: 0.5s;
+}
